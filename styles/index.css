@@ -1,0 +1,218 @@
+body {
+    /* background-size: cover; */
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.header-wrapper {
+    height: 75px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* font-size: 30px; */
+    padding-left: 5px;
+    
+}
+.header-wrapper button {
+    font-size: 20px;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 90, 90);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 18px;
+    width: 200px;
+}
+
+#link-top{
+    padding: 5px;
+    font-size: .9em;
+    font-weight: 800;
+    /* font-stretch: condensed; */
+}
+
+#spark {
+    padding-left: 30px;
+}
+
+#buttons-top #icon    {
+    padding: 10px;
+    height: 100%;
+    color: #b3b6c0a8;
+    font-size: 2em;
+    /* margin: 15px 25px 5px 0px; */
+    margin: 10px;
+}
+
+#buttons-top {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+#buttons-top .btn-top button {
+    width: max-content;
+}
+
+#center a{
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#center {
+    width: 100%;
+    margin-left: 80px;
+    font-size: 1.5em;   
+    /* font-family: "roboto slab", sans-serif; */
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.btn-top {
+    width: fit-content;
+}
+
+/* 
+#down-arrow{
+    padding-left: 150px;
+} */
+
+#logo {
+    justify-content: center;
+    height: 45px;
+    background-color: black;
+    margin-left: 20px;
+}
+
+.h1 {
+    color: yellow;
+    font-size: .8em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Titillium Web', sans-serif;
+    padding-left: 5px;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.mid-section-wrapper {
+    /* height: 30%;
+    display: flex;
+    background-image: linear-gradient(to bottom right, rgb(78, 74, 74), black);
+    color: whitesmoke;
+    font-size: 1.3em;
+    align-items: center;
+    align-items: top;
+    justify-content: space-between;
+    padding-left: 30px; */
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 10px;
+    /* padding: 20px; */
+    height: 665px;
+    /* margin-left: 0px; */
+    background-image: radial-gradient(circle at top center, rgb(73, 73, 73), rgba(26, 24, 24, 0.568));
+    color: whitesmoke;
+
+}
+
+/* #body-text { */
+.mid-section-left {
+    text-align: left;
+    /* padding-left: 30px; */
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    padding-left: 20px;
+    /* line-height: 60px; */
+}
+
+.mid-section-left-mid {
+    opacity: 60%;
+    /* font-size: 35px; */
+    font-size: .8em;
+    font-weight: 200;  
+}
+
+/* #body-btn {
+    text-align: center;
+} */
+
+/* .h2 { */
+.mid-section-right-top {
+    font-size: 1em;
+    margin-top: 20px;
+    padding-left: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+} 
+
+#sign{
+    background-color: rgb(94, 228, 94);
+    color: black;
+    width: 350px;
+}
+
+.mid-section-wrapper button {
+    font-size: 40PX;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 20px;
+    font-weight: bold;
+    margin: 8px;
+    /* width: 250px; */
+    font-family: 'Rambla', sans-serif;
+}
+
+/* #code { */
+.mid-section-right-bottom img {
+    height: 600px;
+    box-shadow: -9px -2px 15px 3px rgba(0,0,0,0.6);
+    margin-top:3px ;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.footer button{
+    font-family:'roboto', sans-serif;
+    border: 2px solid white;
+    background-color: rgb(44, 42, 42);
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+}
+
+/* .bold {
+    font-family: 'Rambla', sans-serif;
+} */
+
+.footer > button {
+    background-color: #282931a8;
+    border: 1px solid gray;
+    width: 25%;
+    color: white; 
+    font-size: 1.3em;
+    padding: 10px 24px; 
+}
+
+.footer > button b {
+    font-size: 1.4em;
+}
